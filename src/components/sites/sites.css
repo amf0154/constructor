@@ -1,0 +1,10 @@
+.sites-container{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
