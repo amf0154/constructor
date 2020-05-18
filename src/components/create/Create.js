@@ -11,7 +11,7 @@ class Create extends React.Component {
             slug: "",
             numChildren: 0,
             blockData: [],
-            height: 200,
+            height: 300,
             background: "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
             color: 'yellow',
             title: 'batterfly'
