@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: lightcyan;
   background: url('../src/assets/images/background.jpg') no-repeat 50% 50%;
+  background-attachment: fixed;
 }
 
 code {

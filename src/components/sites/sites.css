@@ -1,10 +1,15 @@
 .sites-container{
     width: 60%;
     margin: 0 auto;
-    border: 1px blue solid;
+    border: 1px darkcyan solid;
+    padding: 10px 0px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     text-align: center;
     justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }

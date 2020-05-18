@@ -8,7 +8,7 @@ class Sites extends React.Component {
         return (
             <div className="sites-container">
                 {sites.length !==0 ? sites.map((site, i) => (
-                    <Link key={i}  to={`/site/${site.slug}`}>{window.location.origin + '/site/'+ site.slug}</Link>
+                    <Link className="link" key={i}  to={`/site/${site.slug}`}>{i+1 + ') '+ site.slug}</Link>
                 )): 'Site list is empty'}
             </div>
         );
